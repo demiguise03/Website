@@ -179,6 +179,9 @@ h2{
     .three h2{
       font-size:3vw;
     }
+    .three{
+      height: 20%;
+    }
     .three a{
       font-size: 2vw;
     }
