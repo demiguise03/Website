@@ -4,12 +4,13 @@ body {
 }
 
 h1{
- margin: 0;
-  padding: 0; 
+ margin: 0px;
+ padding: 5px;
 }
-.h2{
-  margin: 0;
-  width:10%;  
+h2{
+  margin: 2px;
+  padding: 5px;
+  
 }
 /*image slider styles*/
 /*
@@ -138,7 +139,7 @@ h1{
  height:400px;
  overflow-y: auto;
  background-color: #99ff99;
- padding:10px;
+ 
 }
 
 
@@ -173,8 +174,13 @@ h1{
       font-size: 1vw;
     }
     .two h5{
-      font-size:2.5vw;
+      font-size:2vw;
     }
-    
+    .three h2{
+      font-size:3vw;
+    }
+    .three a{
+      font-size: 2vw;
+    }
 
   }
