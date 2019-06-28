@@ -4,7 +4,7 @@ body {
 }
 h2{
   margin: 0;
-  padding: 0;
+  
 }
 h1{
  margin: 0;
@@ -45,7 +45,7 @@ h1{
   background-color: black;
   text-align:center;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
 
 .topnav li{
@@ -93,7 +93,27 @@ h1{
   padding: 10px;
 }
 .three{
- width:25%; 
+ width:25%;
+ height:400px;
+ overflow-y: auto;
  background-color: #99ff99;
  padding:10px;
+}
+
+
+.three a {
+  background-color: #eee;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+.three a:hover {
+  background-color: #ccc;
+}
+
+.three a.active {
+  background-color: #4CAF50;
+  color: white;
 }
