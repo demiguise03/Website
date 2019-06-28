@@ -7,12 +7,14 @@
 <title>Home page</title>
 </head>
 <body>
-	<ul class="topnav">
+	<ul class="topnav" id="myTopnav">
 	  <li><a href="/home/sohamdas/Documents/dev/CMATER_homepage/main.html">Home</a></li>
 	  <li><a href="#about">About</a></li>
 	  <li><a href="#work">Work</a></li>
 	  <li><a href="#clients">Clients</a></li>
 	  <li><a href="#contact">Contact</a></li>
+	  <li><a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i></a></li>
 	</ul>
 
 	<div class="personal">
@@ -56,5 +58,18 @@
 		</div>
 	</div>
 
+
+
+
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+		    x.className += " responsive";
+		  } else {
+		    x.className = "topnav";
+		  }
+		}
+	</script>
 </body>
 </html>
