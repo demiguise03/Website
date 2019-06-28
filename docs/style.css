@@ -2,15 +2,15 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-h2{
-  margin: 0;
-  
-}
+
 h1{
  margin: 0;
   padding: 0; 
 }
-
+.h2{
+  margin: 0;
+  width:10%;  
+}
 /*image slider styles*/
 /*
 .slide{
@@ -75,7 +75,7 @@ h1{
 .topnav .icon {
   display: none;
 }
-
+/*making navigation list responsive*/
 @media screen and (max-width: 600px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
@@ -97,6 +97,7 @@ h1{
     text-align: left;
   }
 }
+/*making headers responsive*/
 
 
 
@@ -114,20 +115,24 @@ h1{
   flex-direction: row;
 }
 .one{
-  width: 15%;
+  width: 20%;
   background-color: #ffe6ff;
   text-align:center;
   height: 800px;
 }
+
+
+
 .details{
   text-align: left;
   padding-left: 10px;
 }
 .two{
-  width:60%;
+  width:55%;
   background-color: #66ccff;
   padding: 10px;
 }
+
 .three{
  width:25%;
  height:400px;
@@ -153,3 +158,22 @@ h1{
   background-color: #4CAF50;
   color: white;
 }
+@media screen and (max-width: 600px) {
+    .one h2{
+      font-size:3vw;
+    }
+    .one p{
+      font-size: 2vw;
+      padding: 0px;
+    }
+    .two h1{
+      font-size:6vw;
+    }
+    .two p{
+      font-size: 1vw;
+    }
+    .two h5{
+      font-size:2.5vw;
+    }
+
+  }
