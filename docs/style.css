@@ -98,7 +98,7 @@ h2{
     text-align: left;
   }
 }
-/*making headers responsive*/
+
 
 
 
@@ -115,30 +115,31 @@ h2{
   display: flex;
   flex-direction: row;
 }
-.one{
-  width: 20%;
-  background-color: #d9d9d9;
-  text-align:center;
-  height: 800px;
-}
-
-
-
 .details{
+
   text-align: left;
   padding-left: 10px;
 }
+div.one{
+  width: 20%;
+  text-align:center;
+  background-color: #d9d9d9;
+  border: 1px solid black;
+}
+
+
 .two{
   width:55%;
   background-color: #a6a6a6;
   padding: 10px;
+  border: 1px solid black;
 }
-
 .three{
  width:25%;
  height:400px;
- overflow-y: auto;
+ overflow-y: scroll;
  background-color: #99ff99;
+ border: 1px solid black;
  
 }
 
@@ -159,6 +160,7 @@ h2{
   background-color: #4CAF50;
   color: white;
 }
+/*making text responsive*/
 @media screen and (max-width: 600px) {
     .one h2{
       font-size:3vw;
