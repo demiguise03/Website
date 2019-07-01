@@ -115,31 +115,33 @@ h2{
   display: flex;
   flex-direction: row;
 }
+.one{
+  width: 20%;
+  text-align:center;
+  background-color: #d9d9d9;
+  
+}
+
 .details{
 
   text-align: left;
   padding-left: 10px;
 }
-div.one{
-  width: 20%;
-  text-align:center;
-  background-color: #d9d9d9;
-  border: 1px solid black;
-}
+
 
 
 .two{
   width:55%;
   background-color: #a6a6a6;
   padding: 10px;
-  border: 1px solid black;
+  
 }
 .three{
  width:25%;
  height:400px;
  overflow-y: scroll;
  background-color: #99ff99;
- border: 1px solid black;
+ 
  
 }
 
