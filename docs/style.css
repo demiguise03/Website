@@ -126,7 +126,7 @@ h2{
 
 .details{
   text-align: left;
-  padding-left: 10px;
+  padding-left: 0.5vw;
   background-color: #d9d9d9;
 }
 
@@ -140,7 +140,7 @@ h2{
 }
 .three{
  width:25%;
- height:400px;
+ height:300px;
  overflow-y: scroll;
  background-color: #99ff99;
  border: 1px solid black; 
