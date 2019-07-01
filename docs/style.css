@@ -118,14 +118,16 @@ h2{
 .one{
   width: 20%;
   text-align:center;
+}
+.wrapper{
   background-color: #d9d9d9;
-  
+  border: 1px solid black; 
 }
 
 .details{
-
   text-align: left;
   padding-left: 10px;
+  background-color: #d9d9d9;
 }
 
 
@@ -134,14 +136,14 @@ h2{
   width:55%;
   background-color: #a6a6a6;
   padding: 10px;
-  
+  border: 1px solid black; 
 }
 .three{
  width:25%;
  height:400px;
  overflow-y: scroll;
  background-color: #99ff99;
- 
+ border: 1px solid black; 
  
 }
 
