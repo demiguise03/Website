@@ -45,8 +45,8 @@ h2{
   overflow: hidden;
   background-color: black;
   text-align:center;
-  margin: 0;
-  padding: 0; 
+  margin: 0px;
+  padding: 0px; 
 }
 
 .topnav li{
@@ -121,7 +121,7 @@ h2{
 }
 .wrapper{
   background-color: #d9d9d9;
-  border: 1px solid black; 
+  
 }
 
 .details{
@@ -136,14 +136,14 @@ h2{
   width:55%;
   background-color: #a6a6a6;
   padding: 10px;
-  border: 1px solid black; 
+  
 }
 .three{
  width:25%;
  height:300px;
  overflow-y: scroll;
  background-color: #99ff99;
- border: 1px solid black; 
+  
  
 }
 
